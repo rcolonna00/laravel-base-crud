@@ -10,7 +10,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Titolo {{ $comic->name }}</h5>
                   <p class="card-text">Descrizione: {{ $comic->description }}</p>
-                  <p class="card-text">Prezzo: {{ $comic->price }}</p>
+                  <p class="card-text">Prezzo: {{ $comic->price }}£</p>
                   <p class="card-text">Autore: {{ $comic->author }}</p>
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>

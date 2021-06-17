@@ -21,9 +21,11 @@
                           @if ( $comic->author )
                           <p class="card-text">{{ $comic->author }}</p>    
                           @endif
-                          <a href="{{ route('comics.show'), [
+                          <a href="{{ route('comics.show', [
                               'comic' => $comic->id
-                          ] }}" class="btn btn-primary">Go somewhere</a>
+                          ]) }}" class="btn btn-primary">
+                            Go somewhere
+                          </a>
                         </div>
                     </div>
                     
